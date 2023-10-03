@@ -1,0 +1,46 @@
+.App {
+
+  display: grid;
+  min-height: 400px;
+  grid-template-columns: repeat(4,2fr);
+  grid-auto-rows: minmax(200px, auto);
+
+  gap: 30px;
+}
+.item{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* Grid way to center  */
+  display: grid;
+  place-content:  center;
+  color: #ffffff;
+}
+.item-1{
+  background: hotpink;
+  grid-column:1/4;
+  grid-row:1/3;
+  
+}
+.item-2{
+  background: red;
+  grid-row: 3/3 ;
+  grid-column: 1/4;
+}
+.item-3{
+  background: gray;
+}
+.item-4{
+  background: blue;
+}
+.item-5{
+  background: brown;
+}
+.item-6{
+  background: aqua;
+}
+.item-7{
+  background: darkmagenta;
+}
+
+
